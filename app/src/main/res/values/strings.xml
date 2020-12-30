@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Helper</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Справочник по комплектующам</string>
+    <string name="nav_header_subtitle">denis.zylev2020</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="logo_btn">Начать</string>
+
+    <string name="menu_process">Процессоры</string>
+    <string name="menu_graphic">Видеокарты</string>
+    <string name="menu_operative">ОЗУ</string>
+    <string name="menu_memory">Жесткие диски</string>
+    <string name="text_process1">14-нанометровый процессор Intel Core i9-9900KF располагает восемью ядрами на архитектуре Coffee Lake с поддержкой Hyper-Threading, имеет конструктивное исполнение LGA1151-v2.
+В работе процессору будут помогать представленные ранее технологии, такие как Hyper-Threading. Turbo Boost помогает производительности процессора и его частоты будут возрастать вплоть до 5 ГГц.</string>>
+
+    <string name="text_process2">Процессор 2</string>
+    <string name="text_process3">Процессор 3</string>
+    <string name="text_process4">Процессор 4</string>
+    <string name="text_graphic1">Nvidia GTX 1050 - это видеокарта среднего, массового сегмента с графическим процессором архитектуры Pascal. Представлена была в январе 2017 года и рассчитана на ноутбуки. GTX 1050 использует чип GP107, изготовленный на 14 нм производстве компании Samsung, в то время как ГП из более дорогих карт той же 1000-ой серии производятся компанией TSMC.
+
+Мобильная версия GTX 1050 отличается от настольной в плане частот, но имеет те же 640 вычислительных ядер. В этой видеокарте может стоять до 4 ГБ 128-битной памяти GDDR5.
+
+Особенности
+
+Чип GP107 изготовлен на 14-нанометровом производстве с транзисторами FinFET от компании Samsung. Он имеет множество умений и возможностей, включая поддержку DisplayPort 1., HDMI 2.0b, HDR, Simultaneous Multi-Projection (SMP) и улучшенного аппаратного (де-)кодирования видео H.265 (PlayReady 3.0).
+
+Производительность
+
+Она сильно зависит от качество охлаждения в конкретном ноутбуке. Идеальный вариант - это полное отсутствие разницы в скорости между настольным и мобильным вариантами GTX 1050. Но на деле, как правило, мобильный вариант ведёт себя несколько медленнее. Старая GeForce GTX 960M при этом отстаёт процентов на 30%. Вообще, мобильная GTX 1050 ближе к GTX 965M, чем к 960M. Отсюда вывод: это представитель самого верха среднего сегмента производительности. Игры 2016 года идут на высоких настройках в разрешении Full HD.
+
+Энергопотребление
+
+Оно очень близко к цифрам GTX 960M, то есть это где-то 40-50 Вт. Это намного ниже, чем у настольной версии видеокарты, вероятно, играют роль более требовательный отбор чипов и более качественные компоненты. Чаще всего рассматриваемая видеокарта встречается в мультимедийных ноутбуках высокого класса или игровых моделях начального класса с диагональю экрана 15 дюймов и выше. </string>
+    <string name="text_graphic2">Видюха 2</string>
+    <string name="text_graphic3">Видюха 3</string>
+
+    <string name="text_operative1">Классная оперативка 1</string>
+    <string name="text_operative2">Классная оперативка 2</string>
+    <string name="text_operative3">Классная оперативка 3</string>
+
+    <string name="text_memory1">Жесткий диск</string>
+    <string name="text_memory2">SSD M2</string>
+    <string name="text_memory3">SSD </string>
+
+    <string name="title">Directory</string>
+</resources>

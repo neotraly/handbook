@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="process">
+        <item>I9-9900</item>
+        <item>I7-7800</item>
+        <item>I5-6400</item>
+        <item>I3-5300</item>
+    </string-array>
+    <string-array name="graphic_cards">
+        <item>GeForce 1050</item>
+        <item>GeForce 1050Ti</item>
+        <item>GeForce 3090Ti</item>
+    </string-array>
+    <string-array name="operative_memory">
+        <item>HyperX 8Gb 2600Mz</item>
+        <item>HyperX 4Gb 2300Mz</item>
+        <item>HyperX 16Gb 4000Mz</item>
+    </string-array>
+    <string-array name="slow_memory">
+        <item>HDD 500Gb</item>
+        <item>SSD M2 500Gb</item>
+        <item>SSD 256Gb</item>
+    </string-array>
+</resources>
