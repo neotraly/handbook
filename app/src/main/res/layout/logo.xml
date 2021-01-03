@@ -20,6 +20,18 @@
         app:srcCompat="@drawable/logo"
         tools:srcCompat="@drawable/logo" />
 
+    <TextView
+        android:id="@+id/txt_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#FFFEFE"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/logo_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
     <Button
         android:id="@+id/logo_btn"
         android:layout_width="wrap_content"
