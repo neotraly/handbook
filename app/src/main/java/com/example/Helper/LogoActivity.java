@@ -4,7 +4,10 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -18,15 +21,34 @@ import java.util.concurrent.Executor;
 
 public class LogoActivity extends MainActivity{
 
+    private Animation logoAnim, buttonAnim;
+    private ImageView logo_img;
+    private TextView msg_txt;
+    private Button logo_btn;
+
+    private void init()
+    {
+        //Загрузка анимации из файлов
+        logoAnim = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.logo_anim);
+        buttonAnim = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.button_anim);
+
+
+        msg_txt = findViewById(R.id.txt_msg);
+        logo_img = findViewById(R.id.logo_img);
+        logo_btn = findViewById(R.id.logo_btn);
+
+        //Начало анимации
+        logo_btn.startAnimation(buttonAnim);
+        logo_img.startAnimation(logoAnim);
+
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.logo);
 
-
-        TextView msg_txt = findViewById(R.id.txt_msg);
-        final Button logo_btn = findViewById(R.id.logo_btn);
+        init();
 
         BiometricManager biometricManager = BiometricManager.from(this);
         switch (biometricManager.canAuthenticate()) {
@@ -85,6 +107,9 @@ public class LogoActivity extends MainActivity{
         startActivity(intent);
         finish();
     }
+
+
+
 
     @Override
     protected void onDestroy() {
